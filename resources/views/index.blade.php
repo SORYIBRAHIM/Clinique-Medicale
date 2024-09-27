@@ -11,7 +11,7 @@
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png " rel="icon">
-    <link href="assets/img/favicon.png"  rel="favicon.png">
+    <link href="assets/img/favicon.png" rel="favicon.png">
 
     <!-- Google Fonts -->
     <link
@@ -77,8 +77,8 @@
                     <li class="dropdown"><a href="#"><span> Personnel</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                           <li><a href="{{ route('personnel') }}">Enregistre</a></li>
-                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="{{ route('personnel') }}">Enregistre-Personnel</a></li>
+                            <li><a href="{{route('login') }}">Login </a></li>
                             <li><a href="#">Drop Down 3</a></li>
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
@@ -89,7 +89,7 @@
             </nav><!-- .navbar -->
 
             <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Prendre </span>
-               Rendez-vous</a>
+                Rendez-vous</a>
 
         </div>
     </header><!-- End Header -->
@@ -134,7 +134,8 @@
                                         <h4>Medecin</h4>
                                         <p>Médecins généralistes : Fournissent des soins de première ligne . </p>
                                         <p> Spécialistes : Offrent une expertise approfondie.</p>
-                                        <p>Médecins de soins d’urgence : Traitent les urgences médicales et soulagent les services d'urgence.</p>
+                                        <p>Médecins de soins d’urgence : Traitent les urgences médicales et soulagent
+                                            les services d'urgence.</p>
 
                                     </div>
                                 </div>
@@ -142,16 +143,22 @@
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-cube-alt"></i>
                                         <h4>SPECIALITE </h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                            deserunt</p>
+                                        <p>Notre clinique offre des soins spécialisés en cardiologie, orthopédie,
+                                            gynécologie, pédiatrie, dermatologie, gastroentérologie, neurologie et
+                                            oncologie. Nos équipes de spécialistes utilisent des technologies médicales
+                                            de pointe pour fournir des soins de qualité avec compassion et expertise.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-images"></i>
-                                        <h4>Labore consequatur</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-                                            facere</p>
+                                        <h4>Traitement & Soin</h4>
+                                        <p>Notre clinique propose une gamme complète de traitements et de soins
+                                            personnalisés, allant des consultations de routine aux interventions
+                                            chirurgicales complexes. Nous utilisons des technologies médicales avancées
+                                            pour garantir des soins efficaces et de haute qualité, tout en assurant le
+                                            confort et la sécurité de nos patients.</p>
                                     </div>
                                 </div>
                             </div>
@@ -187,23 +194,26 @@
 
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
+                            <h4 class="title"><a href="">Suivie des Soin</a></h4>
+                            <p class="description">Notre clinique assure un suivi personnalisé et attentif après chaque
+                                traitement, garantissant une récupération optimale et le bien-être continu de nos
+                                patients.
+
+                            </p>
                         </div>
 
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-gift"></i></div>
-                            <h4 class="title"><a href="">Nemo Enim</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque</p>
+                            <h4 class="title"><a href="">Laboratoire D'analyse </a></h4>
+                            <p class="description">Notre clinique dispose d'un laboratoire d'analyse équipé de
+                                technologies avancées pour des diagnostics précis et rapides.</p>
                         </div>
 
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-atom"></i></div>
-                            <h4 class="title"><a href="">Dine Pad</a></h4>
-                            <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
-                                odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                            <h4 class="title"><a href="">Urgence </a></h4>
+                            <p class="description">Notre clinique offre des services d'urgence 24/7 avec une équipe
+                                dédiée prête à intervenir rapidement pour tous vos besoins médicaux urgents.</p>
                         </div>
 
                     </div>
@@ -327,16 +337,26 @@
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                         <div class="icon-box">
                             <div class="icon"><i class="fas fa-heartbeat"></i></div>
-                            <h4><a href="">Dele cardo</a></h4>
-                            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                            <h4><a href="">Traitement & Soin </a></h4>
+                            <p>Notre clinique offre une large gamme de traitements et de soins médicaux adaptés aux
+                                besoins individuels de nos patients. Nous combinons expertise clinique et technologies
+                                avancées pour assurer des diagnostics précis et des traitements efficaces. Que ce soit
+                                pour des consultations de routine, des thérapies spécialisées, ou des interventions
+                                chirurgicales, nous nous engageons à fournir des soins personnalisés dans un
+                                environnement sécurisé et confortable, visant toujours à améliorer la qualité de vie de
+                                nos patients.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                         <div class="icon-box">
                             <div class="icon"><i class="fas fa-notes-medical"></i></div>
-                            <h4><a href="">Divera don</a></h4>
-                            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                            <h4><a href="">Urgence </a></h4>
+                            <p>Notre clinique est équipée pour répondre efficacement aux urgences médicales 24 heures
+                                sur 24, 7 jours sur 7. Nous disposons d'une équipe dédiée de médecins d'urgence et
+                                d'infirmiers expérimentés, prêts à fournir des soins immédiats et compétents. En cas
+                                d'urgence, les patients peuvent appeler notre numéro dédié et recevoir une assistance
+                                rapide, quel que soit le moment de la journée.</p>
                         </div>
                     </div>
 
@@ -567,9 +587,7 @@
 
                 <div class="section-title">
                     <h2>Doctors</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Info conplementaire.</p>
                 </div>
 
                 <div class="row">
@@ -581,7 +599,7 @@
                             <div class="member-info">
                                 <h4>Walter White</h4>
                                 <span>Chief Medical Officer</span>
-                                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                                <p>Info conplementaire</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -599,7 +617,7 @@
                             <div class="member-info">
                                 <h4>Sarah Jhonson</h4>
                                 <span>Anesthesiologist</span>
-                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                                <p>Info conplementaire</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -617,7 +635,7 @@
                             <div class="member-info">
                                 <h4>William Anderson</h4>
                                 <span>Cardiology</span>
-                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                                <p>Info conplementaire</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -635,7 +653,7 @@
                             <div class="member-info">
                                 <h4>Amanda Jepson</h4>
                                 <span>Neurosurgeon</span>
-                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                                <p>Info conplementaire</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -656,89 +674,10 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>Expper Medicale </h2>
+                    <p>Info Conplementaire.</p>
                 </div>
 
-                <div class="faq-list">
-                    <ul>
-                        <li data-aos="fade-up">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                                data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
-                                    class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim
-                                nunc? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing
-                                elit? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam
-                                aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare.
-                                Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                    class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
 
             </div>
         </section><!-- End Frequently Asked Questions Section -->
@@ -777,9 +716,7 @@
                                     <h4>Designer</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
-                                        quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
-                                        irure amet legam anim culpa.
+                                        Info conplementaire
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -795,9 +732,7 @@
                                     <h4>Store Owner</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis
-                                        sint minim.
+                                        Info conplementaire
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -813,9 +748,7 @@
                                     <h4>Freelancer</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore
-                                        quem dolore labore illum veniam.
+                                        Info conplementaire
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -831,9 +764,7 @@
                                     <h4>Entrepreneur</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
-                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam
-                                        esse veniam culpa fore nisi cillum quid.
+                                        Info conplementaire
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -853,9 +784,10 @@
 
                 <div class="section-title">
                     <h2>Gallery</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>L'environnement est équipé d'équipements médicaux de pointe et doté de professionnels de la santé
+                        qualifiés, notamment des médecins, des infirmières et du personnel de soutien. Les patients
+                        reçoivent des traitements allant des examens de routine aux interventions chirurgicales
+                        complexes. .</p>
                 </div>
             </div>
 
@@ -937,9 +869,7 @@
 
                 <div class="section-title">
                     <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Infos Conplementaire.</p>
                 </div>
             </div>
 
@@ -1045,11 +975,11 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">URGENCE</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">OPERATION CHIRURGICALE</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">GYNECOLOGIE</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">PSYCOLOGUE</a></li>
                         </ul>
                     </div>
 

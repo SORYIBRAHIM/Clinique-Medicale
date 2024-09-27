@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\PersonnelController;
 use Illuminate\Support\Facades\Route;
@@ -20,5 +21,13 @@ Route::get('/', [MainPageController::class, 'index'])->name('home');
 
 Route::get('/personnel', [PersonnelController::class, 'personnel'])->name('personnel');
 
+Route::post('/login', 'login')->name('login');
 
-//*/ Route::get('/form', [FormController::class, 'form'])->name('form');// */
+
+
+Route::middleware(['auth'])->group(function () {
+
+
+Route::get('/personnel', [PersonnelController::class, 'index'])->name('personnel');
+
+});
